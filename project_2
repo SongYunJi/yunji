@@ -9,8 +9,6 @@ access_key = 'KLLl'
 secret_key = 'mwWu'
 server_url = 'https://api.upbit.com'
 
-
-
 params = {
   'states[]': ['done', 'cancel']
 }
