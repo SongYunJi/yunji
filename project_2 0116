@@ -36,7 +36,6 @@ class UpbitAPI :
         }
 
         res = requests.get(self.BASE_URL + '/v1/orders', params=params, headers=headers)
-        print(res.json())
+        return(res.json()))
 
-mylog = UpbitAPI(access_key, secret_key)
-mylog.get_trade_log()
+
